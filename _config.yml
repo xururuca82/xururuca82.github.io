@@ -10,9 +10,9 @@ title: Webjeda cards
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Webjeda Cards is a Bootstrap based jekyll theme for portfolio, photography or any kind of blog.
-  
-  
-baseurl: "/cards" # the subpath of your site, e.g. /blog
+
+
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://webjeda.com" # the base hostname & protocol for your site
 
 #sidebar
@@ -58,4 +58,3 @@ sass:
 
 # Ruby Gems
 plugins: [jekyll-paginate, jekyll-seo-tag]
-
