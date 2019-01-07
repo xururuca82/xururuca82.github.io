@@ -2,11 +2,8 @@
 layout: default
 ---
 
-<div class="home">
- 
-  
+<div class="home">  
     <div class="row pack">
-
         {% for post in paginator.posts %}   
             <div class="col-md-4 card">
              <a href="{{ post.url | prepend: site.baseurl }}" class="index-anchor">    
@@ -27,10 +24,8 @@ layout: default
                   </div>
                 </div>
                 </a>
-            </div>
-        
+            </div>        
           {% endfor %}
-
     </div> 
     
 <div class="row">
